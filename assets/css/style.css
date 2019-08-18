@@ -1,0 +1,109 @@
+body{
+    background:#e8e8e8;
+}
+header.container-fluid{
+    padding:0;
+}
+
+#brand:hover{
+    color:#ed7133;
+    text-decoration: none;
+    cursor: grab;
+}
+
+#main-nav{
+    background: #0866cc;
+    text-align: center;
+    padding: .5% 0 1% 0;
+    position: relative;
+}
+
+
+#sign-up-in button.user{
+    background: #0866cc;
+    color: white;
+    border: none;
+    text-align: right;
+    position: relative;
+    left: 40%;
+    font-size: .8em;
+}
+
+#sign-up{
+    border-right: 1px #0c74e2 solid;
+    padding-right: .5%;
+}
+
+#brand{
+    color: white;
+    font-size: 3em;
+    display: inline-block;
+    position: relative;
+    top: 14px;
+    margin-right: 2%;
+    }
+
+#search-form{
+    display: inline-block;
+}
+
+div.col-md-5{
+    margin-right: 2%;
+}
+
+input#event{
+    width: 20rem;
+}
+
+
+/* Sub-Nav searched events */
+#sub-nav{
+    background: #0657b0;
+    margin-bottom: 1%;
+    padding:.5%;
+}
+
+#Music {
+    margin: 0 0 0 16%;
+}
+
+.saved-search{
+    background: #0657b0;
+    border: none;
+    color: white;
+}
+
+/* Generated events */
+.event-row{
+    padding: 2% 0;
+    border-bottom: dotted 1px grey;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    background: white;
+}
+
+.card{
+    margin-left: 5%;
+    border: none;
+}
+
+.card-body{
+    padding-top:0;
+}
+
+div.col-md-3, div.col-md-9{
+    padding:0;
+}
+
+#tickets{
+    background: #ed7133;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.event-searched:hover{
+    cursor: pointer;
+    color: #0657b0;
+}
